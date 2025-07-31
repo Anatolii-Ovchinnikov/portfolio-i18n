@@ -19,6 +19,10 @@ body {
   padding: 20px;
 }
 
+#contact {
+  text-decoration: none;
+}
+
 /* Хедер */
 .hero {
   background: linear-gradient(to right, #007acc, #00c6ff);
