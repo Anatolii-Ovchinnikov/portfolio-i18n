@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title data-i18n="title">Anatolii's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфоліо Анатолія</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
-    <div class="lang-switch">
-      <img src="https://flagcdn.com/ua.svg" alt="UA" id="ua-btn" class="flag" />
-      <img src="https://flagcdn.com/gb.svg" alt="EN" id="en-btn" class="flag" />
-    </div>
     <div class="container">
-      <img src="images/avatar.jpg" class="avatar" alt="My photo">
-      <h1 data-i18n="header">Hi, I'm Anatolii 👋</h1>
-      <p data-i18n="subheader">Aspiring Full-Stack Developer</p>
+      <img src="images/avatar.jpg" alt="Фото Анатолія" class="avatar">
+      <h1>Привіт, я Анатолій 👋</h1>
+      <p>Майбутній Full-Stack розробник</p>
+      <a href="#contact" class="btn">Зв'язок зі мною</a>
     </div>
   </header>
 
   <main class="container">
-    <section>
-      <h2 data-i18n="about-title">About Me</h2>
-      <p data-i18n="about-text">I'm from Ukraine and study web development at Mate Academy.</p>
+    <section id="about">
+      <h2>Про мене</h2>
+      <p>Я з України, навчаюсь в Mate Academy. Прагну розвиватись в сфері веброзробки та створювати корисні цифрові продукти.</p>
     </section>
-    <section>
-      <h2 data-i18n="contact-title">Contact</h2>
-      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+
+    <section id="skills">
+      <h2>Навички</h2>
+      <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Git & GitHub</span>
+        <span>React (в процесі)</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Мої проєкти</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Проєкт 1</h3>
+          <p>Короткий опис першого проєкту.</p>
+          <a href="#" target="_blank">GitHub →</a>
+        </div>
+        <div class="project-card">
+          <h3>Проєкт 2</h3>
+          <p>Короткий опис другого проєкту.</p>
+          <a href="#" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Контакти</h2>
+      <p>Email: <a href="mailto:ovchinnikov.anatolii1@gmail.com">ovchinnikov.anatolii1@gmail.com</a></p>
+      <p><a href="https://github.com/Anatolii-Ovchinnikov" target="_blank">GitHub</a></p>
+      <p><a href="https://www.linkedin.com/in/anatolii-ovchinnikov/" target="_blank">LinkedIn</a></p>
     </section>
   </main>
 
   <footer>
-    <p data-i18n="footer">© 2025 Anatolii Ovchynnykov</p>
+    <p>© 2025 Анатолій Овчінніков</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
